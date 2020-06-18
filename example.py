@@ -6,7 +6,7 @@ import giphyApi
 
 # Set Api key
 API_KEY = giphyApi.API_KEY = ""
-#
+
 if API_KEY == "":
     print("Please enter an Api Key")
     exit(0)
