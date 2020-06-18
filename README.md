@@ -1,6 +1,6 @@
-This module make it possible to request random gifs to be with or without gifs.
+This module make it possible to request random gifs with or without topic.
 
-
+You can find an example in the project folder, it's called example.py
 
 How to use the module:
 
