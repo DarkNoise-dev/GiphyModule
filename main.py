@@ -5,7 +5,7 @@ import requests
 ############# Version 1.0               Author: DarkNoise #############
 #######################################################################
 
-
+#
 def gif_random():
     URL = "https://api.giphy.com/v1/gifs/random?"
     API_KEY = "nHtX1O9HDLnDpVi25LOdd3A5mXJGK8PD"
