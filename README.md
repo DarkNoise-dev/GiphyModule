@@ -26,7 +26,7 @@ Click create an app.
 
 4. Now you are ready to use the module/package. Download the package and copy the file giphyApi.py into your project.
 
-You can download the module manuel or with git clone https://github.com/DarkNoise-dev/GiphyModule.git
+You can download the module manuelly or with git clone https://github.com/DarkNoise-dev/GiphyModule.git
 
 ![image](https://user-images.githubusercontent.com/42913703/85050498-7850e680-b196-11ea-961a-cf9fe45a5958.png)
 
