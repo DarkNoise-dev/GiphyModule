@@ -25,6 +25,3 @@ def getGif(API_KEY, tag=""):
 
     # Print URL
     print(gif_url)
-
-
-

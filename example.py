@@ -5,12 +5,14 @@ import giphyApi
 #######################################################################
 
 # Set Api key
-API_KEY = giphyApi.API_KEY = "Your_wonderfull_api_key"
+API_KEY = giphyApi.API_KEY = ""
+
+if API_KEY == "":
+    print("Please enter an Api Key")
+    exit(0)
 
 # topic to search
-tag = ""
+tag = "game-of-thrones"
 
 # Get GIF
 giphyApi.getGif(API_KEY=API_KEY, tag=tag)
-
-
