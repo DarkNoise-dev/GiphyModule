@@ -1,15 +1,14 @@
-import giphy_api
+import giphyApi
 
 
 # Set Api key
-API_KEY = giphy_api.API_KEY = ""
+API_KEY = giphyApi.API_KEY = "Your_wonderfull_api_key"
 
 # topic to search
-tag = "Auto"
+tag = ""
 
 
 # Get random GIF
-giphy_api.gif_random(API_KEY)
+giphyApi.getGif(API_KEY=API_KEY, tag=tag)
 
-# Search for gif with tag
-giphy_api.gif_random_tag(tag=tag, API_KEY=API_KEY)
+
