@@ -1,6 +1,6 @@
-This module make it possible to request random gifs with or without topic.
+This module allows to request random gifs with or without topic.
 
-You can find an example in the project folder, it's called example.py
+You find an example in the project folder, it's called example.py
 
 How to use the module:
 
@@ -14,7 +14,7 @@ Click get started.
 
 ![image](https://user-images.githubusercontent.com/42913703/85049843-85210a80-b195-11ea-8dbe-b5abf8f79a36.png)
 
-Click create app.
+Click create an app.
 
 
 
@@ -30,7 +30,7 @@ Click create app.
 
 ![image](https://user-images.githubusercontent.com/42913703/85051053-4c823080-b197-11ea-8cc5-e7f5de71a126.png)
 
-After you done that go to your main file and import giphyApi.
+When you have done that go to your main file and import giphyApi.
 
 ![image](https://user-images.githubusercontent.com/42913703/85050582-9ae2ff80-b196-11ea-81b0-31761382e380.png)
 
@@ -40,15 +40,13 @@ Now you need to define your API Key, you can do it with API_KEY = giphyApi.API_K
 ![image](https://user-images.githubusercontent.com/42913703/85050752-d7166000-b196-11ea-8cb9-9e3bbbfc90dd.png)
 
 
-Now you can call the function giphyApi.getGif() as argument you have to use the api key.
-If you want to search gifs to a specific topic you also need to define tag, you can do it with tag = "".
+Now you can call the function giphyApi.getGif() use the api key as argument.
+If you want to search gifs for a specific topic you need to define the tag, key in tag = "".
 
 ![image](https://user-images.githubusercontent.com/42913703/85050984-35dbd980-b197-11ea-8c52-6170f4306f05.png)
 
 
-
-
-After you done it you simply need to add tag as argument.
+After you've done it you simply need to add tag as argument.
 
 
 
