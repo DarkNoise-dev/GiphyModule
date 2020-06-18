@@ -5,10 +5,8 @@ import requests
 ############# Version 1.0               Author: DarkNoise #############
 #######################################################################
 
-
-def gif_random():
+def gif_random(API_KEY):
     URL = "https://api.giphy.com/v1/gifs/random?"
-    API_KEY = ""
     header = {"api_key": API_KEY}
 
     # Get request from Url
@@ -24,12 +22,12 @@ def gif_random():
     print(gif_url)
 
 
-def gif_random_tag(Thema):
+def gif_random_tag(tag, API_KEY):
     # Url
-    URL = "https://api.giphy.com/v1/gifs/random?api_key=nHtX1O9HDLnDpVi25LOdd3A5mXJGK8PD&tag=" + Thema + "&rating=G"
-
+    URL = "https://api.giphy.com/v1/gifs/random?api_key=nHtX1O9HDLnDpVi25LOdd3A5mXJGK8PD&tag=" + tag + "&rating=G"
+    header = {"api_key": API_KEY}
     # Get request from Url
-    r = requests.get(URL)
+    r = requests.get(URL, headers=header)
 
     # Convert request into json
     r_dict = r.json()
@@ -39,7 +37,3 @@ def gif_random_tag(Thema):
 
     # Print random gif url
     print(random_gif_url)
-
-
-gif_random_tag(Thema="game of thrones")
-gif_random()
