@@ -24,4 +24,4 @@ def getGif(API_KEY, tag=""):
     gif_url = r_dict['data']['url']
 
     # Print URL
-    print(gif_url)
+    return gif_url

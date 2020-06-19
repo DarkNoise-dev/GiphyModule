@@ -15,4 +15,6 @@ if API_KEY == "":
 tag = "game-of-thrones"
 
 # Get GIF
-giphyApi.getGif(API_KEY=API_KEY, tag=tag)
+gifUrl = giphyApi.getGif(API_KEY=API_KEY, tag=tag)
+
+print(gifUrl)
