@@ -1,3 +1,5 @@
+# Giphy Module
+
 This module allows to request random gifs with or without topic.
 
 You find an example in the project folder, it's called example.py
