@@ -4,6 +4,7 @@ import giphyApi
 ############# Version 1.0               Author: DarkNoise #############
 #######################################################################
 
+
 # Set Api key
 API_KEY = giphyApi.API_KEY = ""
 
